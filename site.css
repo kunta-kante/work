@@ -1,0 +1,45 @@
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 19%, rgba(61, 121, 9, 1) 44%, rgba(0, 212, 255, 1) 71%);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.banner {
+    margin-top: 200px;
+    width: 40vw;
+    text-align: center;
+    margin-left: 30%;
+}
+
+li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+
+/* ------- RACCOURCI ------ */
+
+.flex {
+    display: flex;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justifySB {
+    justify-content: space-between;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.flexDirection {
+    flex-direction: column;
+}
+
+span {
+    color: red;
+}
