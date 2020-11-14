@@ -1,0 +1,122 @@
+header {
+    height: 10vh;
+}
+
+.contenu>article {
+    border: 2px solid black;
+}
+
+.contenu {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.alignC {
+    align-items: center;
+}
+
+.justifyC {
+    justify-content: center;
+}
+
+.facebook {
+    background-color: brown;
+}
+
+.instagram {
+    background-color: yellow;
+}
+
+.twitter {
+    background-color: green;
+}
+
+.snapchart {
+    background-color: orange;
+}
+
+.fontSize {
+    font-size: 50px;
+}
+
+.fa-facebook-f {
+    color: #0080f7;
+    animation-duration: 5s;
+    animation-name: snapchat;
+    animation-iteration-count: infinite;
+}
+
+.fa-snapchat-square {
+    color: #f78c00;
+    animation-duration: 5s;
+    animation-name: snapchat;
+    animation-iteration-count: infinite;
+}
+
+.fa-instagram {
+    color: #00b1f7;
+    animation-duration: 5s;
+    animation-name: snapchat;
+    animation-iteration-count: infinite;
+}
+
+.fa-twitter {
+    color: #0019f7;
+    animation-duration: 5s;
+    animation-name: snapchat;
+    animation-iteration-count: infinite;
+}
+
+@keyframes snapchat {
+    0% {
+        color: #4baa48;
+    }
+    50% {
+        color: #a937b352;
+    }
+    100% {
+        color: #90aa48;
+    }
+}
+
+@keyframes facebook {
+    0% {
+        color: #484aaa;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: #485aaa;
+    }
+}
+
+@keyframes twitter {
+    0% {
+        color: #4867AA;
+    }
+    50% {
+        color: #64b337;
+    }
+    100% {
+        color: #6caa48;
+    }
+}
+
+@keyframes instagram {
+    0% {
+        color: #4867AA;
+    }
+    50% {
+        color: #b3b137;
+    }
+    100% {
+        color: #aa488d;
+    }
+}

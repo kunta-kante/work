@@ -1,0 +1,58 @@
+.header1 {
+    height: 90vh;
+    background-color: black;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.logo {
+    font-size: xx-large;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aside {
+    display: list-item;
+}
+
+.card-body {
+    text-align: center;
+    margin-top: 15px;
+    font-size: large;
+}
+
+.card3 {
+    background-image: url(./image/im6.jpeg);
+    background-repeat: no-repeat;
+}
+
+.card1 {
+    height: 20vw;
+    background-image: url(./image/im10.jpeg);
+    background-repeat: no-repeat;
+}
+
+.card2 {
+    height: 70px;
+    background-image: url(./image/im11.jpeg);
+    background-repeat: no-repeat;
+}
+
+.card1,
+.card2 {
+    display: grid;
+}
